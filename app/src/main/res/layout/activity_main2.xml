@@ -17,7 +17,8 @@
             android:layout_width="57dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
-            android:Radius="10"
+            app:cornerRadius="15dp"
+            android:radius="50dp"
             android:text="1" />
 
         <Button
@@ -30,6 +31,13 @@
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:text="3" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:radius="50dp"
+            android:backgroundTint="@color/red"
+            android:text="+" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,6 +60,13 @@
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:text="6" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:radius="50dp"
+            android:backgroundTint="@color/red"
+            android:text="-" />
     </LinearLayout>
 
     <LinearLayout
@@ -74,6 +89,14 @@
             android:layout_height="match_parent"
             android:layout_margin="5dp"
             android:text="9" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+
+            android:radius="50dp"
+            android:backgroundTint="@color/red"
+            android:text="*" />
     </LinearLayout>
 
     <LinearLayout
@@ -83,7 +106,26 @@
             android:layout_width="57dp"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="." />
+        <Button
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
             android:text="0" />
+        <Button
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="C" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:radius="50dp"
+            android:backgroundTint="@color/red"
+            android:text="/" />
 
     </LinearLayout>
 
